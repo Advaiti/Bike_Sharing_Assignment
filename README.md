@@ -1,32 +1,41 @@
-# Bike-sharing-assignment
-A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
+# Bike Sharing Demand Analysis
 
-# General Information
-   A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state. 
-   
-### The company wants to know:
-- Which variables are significant in predicting the demand for shared bikes.
-- How well those variables describe the bike demands
+## Table of Contents
+- [General Information](#general-information)
+- [Technologies Used](#technologies-used)
+- [Conclusions](#conclusions)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
+
+## General Information
+- **Project Description**: This project involves a multiple linear regression analysis to understand the factors affecting the demand for shared bikes. The analysis aims to help BoomBikes, a US bike-sharing provider, to identify the variables significant in predicting the demand for shared bikes and how well those variables describe the bike demands.
+- **Background**: BoomBikes has suffered considerable revenue dips due to the ongoing pandemic. The company seeks to develop a business plan to accelerate its revenue post-lockdown.
+- **Business Problem**: Identify significant variables influencing bike-sharing demand and understand their impact.
+- **Dataset**: The dataset includes daily bike-sharing data with variables such as temperature, humidity, windspeed, season, month, weekday, working day status, and weather situation.
 
 ## Technologies Used
-- numpy - version 1.20.3
-- pandas - version 1.3.4
-- matplotlib - version 3.4.3
-- plotly - version 5.6.0
-- seaborn - version 0.11.2
-- statsmodels - version 0.12.2
-- sklearn - version 0.24.2
-- scipy - version 1.7.1   
+- Python 3.8
+- Libraries:
+  - numpy - version 1.19.2
+  - pandas - version 1.1.3
+  - matplotlib - version 3.3.2
+  - seaborn - version 0.11.0
+  - sklearn - version 0.23.2
+  - statsmodels - version 0.12.1
 
-## Conclusion
-Significant variables to predict the demand for shared bikes
+## Conclusions
+1. **Temperature**: Positively correlated with bike demand.
+2. **Season**: Spring and winter show significant influence on bike demand.
+3. **Month**: July and September have a noticeable impact on bike demand.
+4. **Weather Situation**: Bad weather conditions significantly reduce bike demand.
+5. **Year**: Shows a strong positive correlation, indicating increasing demand over time.
 
-- holiday
-- temp
-- hum
-- windspeed
-- Season
-- months(January, July, September, November, December)
-- Year (2019)
-- Sunday
-- weathersit( Light Snow, Mist + Cloudy)
+## Acknowledgements
+- This project was inspired by the need to understand the impact of various factors on bike-sharing demand during the pandemic.
+
+## Contact
+Created by [Chidambaram-Ananthakrishnan](https://www.linkedin.com/in/chidambaram-ananthakrishnan/)
+
+
+
+
